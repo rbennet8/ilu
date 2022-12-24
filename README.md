@@ -35,6 +35,9 @@ button {
   font-size: 1em;
   padding: 0.5em 1em;
   border: none;
-  border-radius: 0
-
+  border-radius: 0.5em;
+  background-color: #0077c9;
+  color: white;
+  cursor: pointer;
+}
 ```
