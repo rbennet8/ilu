@@ -21,6 +21,8 @@ function displayFact() {
 }
 ```
 
+<button onclick="displayFact()">Show me a fact!</button>
+
 ```CSS
 body {
   font-family: Arial, sans-serif;
