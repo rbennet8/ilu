@@ -1,7 +1,7 @@
 # ilu
 
 
-```JavaScript
+``` JavaScript
 const facts = [
   "The average person spends 6 months of their lifetime waiting on a red light to turn green.",
   "The world's oldest piece of chewing gum is over 9,000 years old.",
@@ -21,9 +21,11 @@ function displayFact() {
 }
 ```
 
+``` HTML
 <button onclick="displayFact()">Show me a fact!</button>
+```
 
-```CSS
+``` CSS
 body {
   font-family: Arial, sans-serif;
   text-align: center;
