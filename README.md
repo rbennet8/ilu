@@ -21,9 +21,7 @@ function displayFact() {
 }
 ```
 
-``` HTML
 <button onclick="displayFact()">Show me a fact!</button>
-```
 
 ``` CSS
 body {
