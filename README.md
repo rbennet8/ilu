@@ -1,5 +1,6 @@
 # ilu
 
+```
 const facts = [
   "The average person spends 6 months of their lifetime waiting on a red light to turn green.",
   "The world's oldest piece of chewing gum is over 9,000 years old.",
@@ -40,3 +41,4 @@ button {
   font-size: 1.2em;
   font-weight: bold;
 }
+```
