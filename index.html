@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>Random Facts</title>
+  <title>RI love you <3</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,28 +18,38 @@
       background-color: #ff0000;
       color: white;
       cursor: pointer;
+      margin: 1em auto;
+    }
+
+    p#fact {
+      margin: 1em auto;
     }
   </style>
 </head>
 <body>
-  <button onclick="displayFact()">Show me a fact!</button>
-  <p id="fact"></p>
+  <button onclick="displayLove()">Show me some love!</button>
+  <p id="ilu"></p>
 
-  <script>
-    const facts = [
-      "The average person spends 6 months of their lifetime waiting on a red light to turn green.",
-      "The world's oldest piece of chewing gum is over 9,000 years old.",
-      "A small child could swim through the veins of a blue whale.",
-      "The world's largest snowflake on record was 15 inches wide and 8 inches thick.",
-      "Pteronophobia is the fear of being tickled by feathers."
-    ];
+  <script>    
+    const ilus = [
+      "I am so grateful to have you in my life. You make everything better.",
+      "You are the most amazing person I have ever met. I love you more and more every day.",
+      "I love how you always make me laugh and put a smile on my face.",
+      "I appreciate everything you do for me. You are the best partner anyone could ask for.",
+      "I am so lucky to have you by my side. Thank you for always being there for me.",
+      "Your kindness and compassion inspire me to be a better person. I love you for that.",
+      "I am so grateful for your unwavering support and encouragement. You are my rock.",
+      "I love your unique and beautiful spirit. You are one of a kind and I am so lucky to have you in my life.",
+      "I appreciate all of the little things you do to show me love and affection. They mean the world to me.",
+      "Your love and affection fills my heart with joy and happiness. I am so grateful to have you in my life."
+      ];
 
-    function displayFact() {
+    function displayLove() {
       // Select a random fact from the array
-      const fact = facts[Math.floor(Math.random() * facts.length)];
+      const ilu = ilus[Math.floor(Math.random() * ilus.length)];
 
       // Display the fact to the user
-      document.getElementById("fact").innerHTML = fact;
+      document.getElementById("ilu").innerHTML = ilu;
     }
   </script>
 </body>
